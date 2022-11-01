@@ -1,0 +1,44 @@
+/*
+    Hoja de reset basico hecha por *Manuel Rangel*
+    * version 0.1
+*/
+
+/*reset de margenes y padding*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 16px*/
+    scroll-behavior: smooth; /*scroll mas suave*/
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/*reseteo de elementos html*/
+body {
+    font-size: 1rem; /*10px de fuente*/
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+/*imagenes responsivas*/
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+/*reseteo de los formularios, input*/
+input {
+    outline: none;
+}
